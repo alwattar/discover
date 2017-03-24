@@ -112,6 +112,7 @@ nav ul li:nth-child(4):hover .nav_sub{
 }
 .nav_sub ul li a {
     display: inline-block;
+    width:0;
 }
 
 

@@ -102,9 +102,14 @@ nav a:hover::before {
 }
 
 .nav_sub {
-    padding: 10px;
+    display:none;
+    transition:all ease 0.4s;
 }
-
+nav ul li:nth-child(4):hover .nav_sub{
+    display:block;
+   
+    
+}
 .nav_sub ul li a {
     display: inline-block;
 }

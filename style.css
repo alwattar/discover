@@ -191,10 +191,6 @@ P {
     transition: all ease 0.5s
 }
 
-#boxes .box img:hover {
-    width: 100px;
-    height: 110px;
-}
 
 #wrap_idx_box {
     width: 100%;

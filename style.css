@@ -83,6 +83,32 @@ nav a:hover::before {
     width: 100%;
 }
 
+.nav_content{
+    position: absolute;
+    background-color: #64bab3;
+    width: 140px;
+}
+
+.nav_content a {
+    position: relative;
+    right: 50px;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+.nav_content a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav_sub {
+    padding: 10px;
+}
+
+.nav_sub ul li a {
+    display: inline-block;
+}
+
 
 /*---------------------------------Home----------------------------------------*/
 

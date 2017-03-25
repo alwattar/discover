@@ -289,6 +289,33 @@ P {
     border: solid #ff5b93 3px;
 }
 
+.gray{
+    background-color: #f2f8fc;
+}
+.gray_a h2{
+    text-align: center;
+} 
+
+.box_links{
+    position: relative;
+    display:inline-block;
+}
+.boxLinksIndex-item{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    display:inline-block;
+    width: 300px;;
+    padding: 30px;
+    left: 120px;
+    list-style: none;
+    margin: 20px;
+}
+.boxLinksIndex-item img{
+    height: 300px;
+    width: 300px;
+}
+
 
 /*---------------------------------Footer----------------------------------------*/
 

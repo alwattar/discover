@@ -286,30 +286,54 @@ P {
 }
 
 .gray {
+    position: relative;
+    bottom: 760px;
     background-color: #f2f8fc;
+    height: 1300px;
 }
+
 .gray_a h2 {
+    position: relative;
     text-align: center;
+    color: #2b7d84;
+    font-size: 40px;
+    top:70px;
 }
+
 .box_links {
     position: relative;
     display: inline-block;
 }
+
 .boxLinksIndex-item {
     background-color: white;
     position: relative;
     text-align: center;
     display: inline-block;
     width: 300px;
-    ;
     padding: 30px;
     left: 120px;
     list-style: none;
     margin: 20px;
+    top:80px;
 }
+.boxLinksIndex-item:hover{
+    background-color: #5fb4af;
+    transition: all ease-in-out 250ms;
+}
+.arw01 {
+    color: #003176;
+}
+
+
 .boxLinksIndex-item img {
     height: 300px;
     width: 300px;
+}
+
+.background{
+    position: relative;
+    bottom: 850px;
 }
 
 .content_about_a {
@@ -324,7 +348,7 @@ P {
 
 .content_about_a h3 {
     position: relative;
-    top:150px;
+    top: 150px;
     text-align: center;
     color: #ff5b93;
     font-size: 40px;
@@ -336,7 +360,7 @@ P {
 
 .content_about_a p {
     position: relative;
-    top:160px;
+    top: 160px;
     text-align: center;
     font-size: 20px;
     letter-spacing: 3px;
@@ -345,9 +369,8 @@ P {
 }
 
 
-
-
 /*---------------------------------Footer----------------------------------------*/
+
 footer {
     position: relative;
     padding-top: 20px;
@@ -362,19 +385,19 @@ footer {
     background: linear-gradient(to bottom, #64bab3 0%, #287a82 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#64bab3', endColorstr='#287a82', GradientType=0);
 }
+
 footer p {
     text-align: center;
 }
+
 @media screen and (max-width: 768px) {
     .content h1 {
         font-size: 250%;
     }
-    
     .btn {
         font-size: 110%;
         padding: 7px 15px;
     }
-    
     #boxes .box {
         float: none;
         text-align: center;

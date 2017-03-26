@@ -182,12 +182,50 @@ P {
 #boxes .box {
     float: left;
     text-align: center;
-    width: 30%;
-    padding: 10px;
+    height: 380px;
+    width: 300px;
     margin-bottom: 30px;
+    margin: 50px;
+    transition: all ease 0.8s;
+}
+#boxes .box:hover{
+    border-radius: 30px;
+    background-color: rgba(97, 183, 176, 0.4);
 }
 
 #boxes .box img {
+    position: relative;
+    top: 50px;
+    width: 90px;
+    height: 100px; 
+}
+
+#boxes .box h3 {
+    position: relative;
+    top: 50px;
+}
+
+#boxes .box p {
+    position: relative;
+    top: 50px;
+}
+
+#boxes_b {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 400px;
+}
+
+#boxes_b .box_b {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes_b .box_b img {
     width: 90px;
     height: 100px;
     transition: all ease 0.5s
@@ -288,8 +326,9 @@ P {
 .gray {
     position: relative;
     bottom: 760px;
+    margin-bottom: -800px;
     background-color: #f2f8fc;
-    height: 1300px;
+    height: 1250px;
 }
 
 .gray_a h2 {
@@ -333,7 +372,7 @@ P {
 
 .background{
     position: relative;
-    bottom: 850px;
+    bottom: 40px;
 }
 
 .content_about_a {
@@ -368,14 +407,56 @@ P {
     background-color: rgba(33, 82, 88, 0.36);
 }
 
+/*---------------------------------Contact----------------------------------------*/
+
+.contact{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    bottom: 30px;
+    margin-bottom: -20;
+    background-image: url("img/homepage.jpeg");
+    background-size: cover;
+}
+
+.contact_a{
+    position: relative;
+    top: 120px;
+    left:530px;
+    height:400px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(33, 82, 88, 0.36);
+    border-radius: 10px;
+}
+.contact_a h3{
+    position:relative;
+    top: 20px;
+    color: #ff5b93;
+    font-size: 30px;
+}
+
+.contact_b{
+    position: relative;
+    top: 60px;
+}
+.contact_b div {
+    padding: 5px;
+}
+
+.contact_b div label {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
 
 /*---------------------------------Footer----------------------------------------*/
 
 footer {
     position: relative;
+    margin-top: -50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 500px;
     color: #ffffff;
     height: 100px;
     width: 100%;

@@ -2,9 +2,9 @@
 
 <head>
     <title>Discover Nature</title>
-    <link rel="stylesheet" href="style.css"> </head>
-<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Source+Sans+Pro" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Source+Sans+Pro" rel="stylesheet">
+     </head>
 <body>
     <header>
         <div class="container">
@@ -82,6 +82,23 @@
     <footer>
         <p>Maher Al Ayoubi, Copyright &copy; 2017</p>
     </footer>
+    
+    <script>
+        $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
 </body>
 
 </html>

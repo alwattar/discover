@@ -87,10 +87,12 @@ nav a:hover::before {
     position: absolute;
     background-color: #64bab3;
     width: 140px;
+    top:59px;
 }
 
 .nav_content a {
     position: relative;
+    
     right: 50px;
     color: white;
     text-decoration: none;
@@ -102,13 +104,14 @@ nav a:hover::before {
     text-decoration: underline;
 }
 
-.nav_sub {
-    display: none;
+nav ul li:nth-child(4) .nav_content {
+    opacity: 0;
     transition: all ease 0.4s;
 }
 
-nav ul li:nth-child(4):hover .nav_sub {
-    display: block;
+nav ul li:nth-child(4):hover .nav_content {
+   
+    opacity: 1;
 }
 
 .nav_sub ul li a {

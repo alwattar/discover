@@ -410,19 +410,20 @@ P {
 /*---------------------------------Contact----------------------------------------*/
 
 .contact{
-    position: relative;
+    position:relative;
+    top:-30px;
     height: 700px;
     width: 100%;
-    bottom: 30px;
-    margin-bottom: -20;
     background-image: url("img/homepage.jpeg");
     background-size: cover;
+    margin:0;
+    padding:0;
 }
 
 .contact_a{
-    position: relative;
-    top: 120px;
-    left:530px;
+    position:relative;
+    top:150px;
+     margin:0 auto;
     height:400px;
     width: 500px;
     text-align: center;
@@ -431,8 +432,8 @@ P {
 }
 .contact_a h3{
     position:relative;
-    top: 20px;
-    color: #ff5b93;
+    top: 60px;
+    color: #ffffff;
     font-size: 30px;
 }
 
@@ -441,15 +442,65 @@ P {
     top: 60px;
 }
 .contact_b div {
-    padding: 5px;
+    padding: 10px;
 }
 
-.contact_b div label {
-    padding: 5px;
-    font-size: 20px;
-    color: white;
+.contact_b div input{
+    width:200px;
+    line-height:1px;
+    padding:10px;
+    border:none;
+    border-bottom:1px solid white;
+    color:white;
+    background:none;
+
+}
+.contact_b div textarea{
+    width:200px;
+    line-height:1px;
+    padding:10px;
+    border:none;
+    border-bottom:1px solid white;
+    color:white;
+    background:none;
+}
+.contact_b button{
+    margin-top:20px;
+    border:1px solid white;;
+    background:none;
+    color:white;
+    padding:10px;
+    width:100px;
+   
+}
+.contact_b div input::-moz-placeholder{
+    color:white;
+    font-size:12px;
+}
+.contact_b div input:-moz-placeholder{
+    color:white;
+    font-size:12px;
 }
 
+.contact_b div input::-webkit-input-placeholder{
+    color:white;
+    font-size:12px;
+    
+}
+.contact_b div textarea::-moz-placeholder{
+    color:white;
+    font-size:12px;
+}
+.contact_b div textarea:-moz-placeholder{
+    color:white;
+    font-size:12px;
+}
+
+.contact_b div textarea::-webkit-input-placeholder{
+    color:white;
+    font-size:12px;
+    
+}
 /*---------------------------------Footer----------------------------------------*/
 
 footer {

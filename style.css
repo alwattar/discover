@@ -379,10 +379,12 @@ P {
 .background{
     position: relative;
     bottom: 40px;
+    text-align: center;
 }
 
 .content_about_a {
     position: relative;
+    text-align: center;
     width: 100%;
     height: 800px;
     z-index: 1000;
@@ -393,18 +395,17 @@ P {
 
 .content_about_a h3 {
     position: relative;
-    top: 150px;
     text-align: center;
+    top: 150px;
     color: #ff5b93;
     font-size: 40px;
     margin-bottom: 10px;
     background-color: rgba(33, 82, 88, 0.36);
-    width: 600px;
-    left: 450px;
 }
 
 .content_about_a p {
     position: relative;
+    text-align: center;
     top: 160px;
     text-align: center;
     font-size: 20px;
@@ -571,7 +572,7 @@ footer p {
 }
     
 /*---------------------------------------About-----------------------------------------------------------*/
-   .content_about {   
+      .content_about {   
     text-align: center;
     position: relative;   
     bottom: 720px;
@@ -601,8 +602,7 @@ footer p {
     }
     
     .gray {
-    margin-bottom: -10px;
-    height: 3200px;    
+    height: 3200px;
 }
     .box_links {
     position: relative;
@@ -611,5 +611,16 @@ footer p {
     display: inline-block;
 }
     
+    .content_about_a h3 {
+    font-size: 20px;
+}
+    .content_about_a p {
+    font-size: 15px;
+}
+    
+/*---------------------------------------Contact-----------------------------------------------------------*/  
+   .contact_a{
+    width: 400px;
+}
     
 }

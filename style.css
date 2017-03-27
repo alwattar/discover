@@ -177,6 +177,7 @@ P {
 
 #boxes {
     position: relative;
+    text-align: center;
     width: 100%;
     margin-top: 30px;
     margin-left: 30px;
@@ -286,11 +287,11 @@ P {
 }
 
 .content_about {
+    text-align: center;
     position: relative;
     bottom: 733px;
     width: 100%;
     height: 700px;
-    
     background-color: rgba(33, 82, 88, 0.36);
 }
 
@@ -312,9 +313,7 @@ P {
 }
 
 .btn_more {
-    position: relative;
-    left: 650px;
-    top: 50px;
+    text-align: center;
     border-radius: 10px;
     color: #fff;
     font-size: 150%;
@@ -525,11 +524,15 @@ footer {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#64bab3', endColorstr='#287a82', GradientType=0);
 }
 
+
 footer p {
+    position: relative;
     text-align: center;
 }
 
 @media screen and (max-width: 768px) {
+    
+/*---------------------------------------Home-----------------------------------------------------------*/
     .content h1 {
         font-size: 250%;
     }
@@ -552,9 +555,61 @@ footer p {
         width: 100%;
     }
     
+    #wrap_idx_box {
+        position: relative;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #wrap_idx_box .idx_box_txt p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 140px;
+    left: 8px;
+}
     
+/*---------------------------------------About-----------------------------------------------------------*/
+   .content_about {   
+    text-align: center;
+    position: relative;   
+    bottom: 720px;
+    width: 100%;
+    }
     
+    .content_about h1 {
+    position: relative;
+    top: 60px; 
+    font-size: 150%;
+    }
+    .content_about p {
+    position: relative;
+    top: 60px;     
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
     
+}
+    .btn_more {
+    position: relative;
+    top: 80px;    
+    border-radius: 10px;
+    color: #fff;
+    font-size: 100%;
+    padding: 10px 20px;
+    }
+    
+    .gray {
+    margin-bottom: -10px;
+    height: 3200px;    
+}
+    .box_links {
+    position: relative;
+    text-align: center;
+    right: 140px;
+    display: inline-block;
+}
     
     
 }

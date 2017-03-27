@@ -185,10 +185,9 @@ P {
 #boxes .box {
     float: left;
     text-align: center;
-    height: 380px;
-    width: 300px;
-    margin-bottom: 30px;
-    margin: 50px;
+    width: 30%;
+    height: 350px;
+    padding: 10px;
     transition: all ease 0.8s;
 }
 #boxes .box:hover{
@@ -226,6 +225,11 @@ P {
     text-align: center;
     width: 30%;
     padding: 10px;
+    transition: all ease 0.8s;
+}
+#boxes_b .box_b:hover{
+    border-radius: 30px;
+    background-color: rgba(97, 183, 176, 0.4);
 }
 
 #boxes_b .box_b img {
@@ -534,8 +538,23 @@ footer p {
         padding: 7px 15px;
     }
     #boxes .box {
+        position: relative;
+        right: 35px;
         float: none;
         text-align: center;
         width: 100%;
     }
+    #boxes_b .box_b{
+        position: relative;
+        right: 35px;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
 }
